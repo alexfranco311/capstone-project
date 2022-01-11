@@ -1,0 +1,173 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+nav {
+    min-height: 64px;
+    padding-left: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.links {
+    padding-right: 18px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    margin-right: 6px;
+}
+
+header {
+    padding: 32px 24px;
+    background-color: #D3D3D3;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    max-width: 60vw;
+}
+
+.content {
+    margin-left: 24px;
+}
+
+.content h1 {
+    font-size: 2rem;
+}
+
+.content p {
+    padding: 10px 0;
+}
+
+button {
+    cursor: pointer;
+    width: 100%;
+    padding: 8px 0;
+    background-color: #4c4c4c;
+    color: #fff;
+}
+
+article {
+    display: flex;
+    margin-bottom: 32px;
+}
+.section1 {
+    max-width: 60vw;
+    margin:0 24px;
+}
+
+.section1 img {
+    max-width: 60vw;
+    padding: 32px 0;
+}
+
+.section1 h2 {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+article p, .info2 p, .multimedia2 p, .video-card p, footer p, footer a {
+    font-size: 12px;
+    color: #4c4c4c;
+    text-decoration: none;
+}
+
+.section2 {
+    max-width: 40vw;
+    padding-top: 16px;
+}
+
+.section2 img {
+    max-width: 35%;
+    padding: 16px;
+}
+
+.container {
+    display: flex;
+    padding-right: 15px;
+    align-items: center;
+}
+.info h4 {
+    margin: 8px 0;
+    font-weight: normal;
+}
+
+.info p {
+    margin: -1px 0;
+}
+.info a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.focus {
+    background-color: #D3D3D3;
+}
+
+.title {
+    margin: 32px auto 0;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 72px;
+    margin-bottom: 32px;
+}
+
+.courses img {
+    max-width: 25vw;
+    margin-bottom: 16px;
+    margin-right: 32px;
+    margin-top: 32px;
+}
+
+.description p {
+    margin-bottom: 24px;
+}
+
+.multimedia{
+    margin-top: 32px;
+    display: flex;
+}
+
+.video-card {
+    margin: 0 24px 24px;
+    width: 60vw;
+    margin-bottom: 32px;
+}
+
+.video {
+    max-width: 60vw;
+}
+
+.multimedia2 {
+    max-width: 40vw;
+}
+
+.multimedia2 img {
+    max-width: 35%;
+    padding: 16px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    margin-bottom: 5px;
+}
